@@ -1,0 +1,3 @@
+backend,model,n_examples,max_new_tokens,batch_size,total_seconds,examples_per_second
+hf,HuggingFaceTB/SmolLM2-1.7B,50,32,4,13.547893517650664,3.690610642522269
+vllm,HuggingFaceTB/SmolLM2-1.7B,50,32,vllm_dynamic,1.016084155999124,49.20852244845269

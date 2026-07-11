@@ -1,0 +1,13 @@
+{
+  "train_size_original": 36181,
+  "test_size": 2000,
+  "exact_match_contaminated": 760,
+  "ngram_match_contaminated": 236,
+  "ngram_size": 13,
+  "ngram_threshold": 0.8,
+  "total_contaminated_unique": 777,
+  "flagged_by_both": 219,
+  "exact_only": 541,
+  "ngram_only": 17,
+  "train_size_cleaned": 35404
+}

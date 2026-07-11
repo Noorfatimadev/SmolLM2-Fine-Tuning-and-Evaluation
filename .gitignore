@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+.DS_Store
+results_lora/smollm2_1_7b_lora_r16/checkpoint-188/optimizer.pt

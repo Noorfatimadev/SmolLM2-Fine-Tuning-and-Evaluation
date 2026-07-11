@@ -1,0 +1,4 @@
+split,n_examples,mean_response_tokens,median_response_tokens,p90_response_tokens,max_response_tokens
+train,36199,119.26,52.0,318.0,2113
+test,2000,118.88,55.5,311.0,1105
+full,38199,119.24,52.0,318.0,2113

@@ -1,0 +1,16 @@
+train_path: /fp/projects01/ec403/IN5550/obligatories/3/obli3_train.tsv.gz
+model_name_or_path: HuggingFaceTB/SmolLM2-1.7B
+output_dir: results_lora/smollm2_1_7b_lora_r16
+max_length: 1024
+max_train_examples: 3000
+epochs: 1.0
+batch_size: 1
+grad_accum: 16
+lr: 0.0002
+warmup_ratio: 0.03
+weight_decay: 0.0
+lora_r: 16
+lora_alpha: 32
+lora_dropout: 0.05
+target_modules: q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj
+seed: 42

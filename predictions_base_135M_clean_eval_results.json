@@ -1,0 +1,45 @@
+{
+  "ROUGE-L": 10.443,
+  "BERTScore": 79.084,
+  "num_examples": 2072,
+  "by_length": {
+    "count": {
+      "long (>150 words)": 640,
+      "medium (50-150 words)": 428,
+      "short (<50 words)": 1004
+    },
+    "avg_rougeL": {
+      "long (>150 words)": 0.1694,
+      "medium (50-150 words)": 0.12,
+      "short (<50 words)": 0.0564
+    },
+    "avg_bertscore": {
+      "long (>150 words)": 0.8042,
+      "medium (50-150 words)": 0.7963,
+      "short (<50 words)": 0.78
+    }
+  },
+  "by_prompt_type": {
+    "count": {
+      "creative": 48,
+      "explanation": 97,
+      "instruction": 1330,
+      "question": 274,
+      "reasoning": 323
+    },
+    "avg_rougeL": {
+      "creative": 0.0982,
+      "explanation": 0.124,
+      "instruction": 0.0984,
+      "question": 0.1562,
+      "reasoning": 0.0805
+    },
+    "avg_bertscore": {
+      "creative": 0.7848,
+      "explanation": 0.8043,
+      "instruction": 0.7879,
+      "question": 0.8076,
+      "reasoning": 0.7858
+    }
+  }
+}
