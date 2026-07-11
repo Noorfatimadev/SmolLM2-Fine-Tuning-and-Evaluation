@@ -1,6 +1,3 @@
-# Assignment3_NLP
-
-
 ## Data
 
 Assignment data files used in this repository:
